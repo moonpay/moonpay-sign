@@ -1,6 +1,3 @@
 {
-  "version": 2,
-  "env": {
-    "SIGNING_SECRET": "@signing_secret"
-  }
+  "version": 2
 }
