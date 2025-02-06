@@ -1,12 +1,15 @@
+'use client';
+
 import dynamic from 'next/dynamic';
 
-const ClientHome = dynamic(
+const MoonPayWidget = dynamic(
   () => import('./components/MoonPayWidget').then(mod => mod.default),
   {
+    ssr: false,
     loading: () => <div>Loading...</div>,
   }
 );
 
 export default function Home() {
-  return <ClientHome />;
+  return <MoonPayWidget />;
 }
