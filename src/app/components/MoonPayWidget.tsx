@@ -34,7 +34,7 @@ export default function MoonPayWidget() {
     }
   };
   return (
-    <main className="flex flex-col items-center justify-between -mt-8 overflow-hidden h-screen w-screen fixed">
+    <main className="flex flex-col items-center justify-center fixed inset-0">
       <div id="moonpay-container">
         <MoonPayProvider
           apiKey={process.env.NEXT_PUBLIC_WIDGET_API_KEY || ''}
@@ -45,7 +45,7 @@ export default function MoonPayWidget() {
             className="flex flex-col items-center justify-center"
           >
             <MoonPayBuyWidget
-              className="p-4 min-h-screen"
+              className="p-4"
               variant="embedded"
               onUrlSignatureRequested={handleUrlSignatureRequested}
             />
