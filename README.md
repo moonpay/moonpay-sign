@@ -1,3 +1,7 @@
+# MoonPay Sign
+
+> ⚠️ **Disclaimer:** This repository contains example/sample code for demonstration and testing purposes only. It should **not** be considered production-ready. Use at your own risk and always perform a thorough security review before deploying any code to production.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
